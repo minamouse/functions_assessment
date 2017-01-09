@@ -147,6 +147,10 @@ def sign_and_parity(num):
         info.append("Negative")
 
     return info
+
+
+parity, sign = sign_and_parity(14)
+print sign, parity
 ###############################################################################
 
 # PART TWO
